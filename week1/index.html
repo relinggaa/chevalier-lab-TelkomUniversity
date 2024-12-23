@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>To-Do List</h1>
+      <div class="form-section">
+        <label for="nama-tugas">Nama Tugas</label>
+        <input type="text" id="nama-tugas" placeholder="Masukkan nama tugas" />
+
+        <label for="deskripsi-tugas">Deskripsi Tugas</label>
+        <textarea
+          id="deskripsi-tugas"
+          rows="3"
+          placeholder="Masukkan deskripsi tugas"
+        ></textarea>
+
+        <label for="deadline-tugas">Deadline Tugas</label>
+        <input type="date" id="deadline-tugas" />
+
+        <button id="tambah-btn">Tambahkan</button>
+      </div>
+      <h2>Daftar Tugas:</h2>
+      <div class="list-section">
+        <div class="task">
+          <p><strong>Nama Tugas:</strong> Belajar HTML</p>
+          <p><strong>Deskripsi:</strong> Memahami struktur dasar HTML</p>
+          <p><strong>Deadline:</strong> 2024-12-15</p>
+        </div>
+        <div class="task">
+          <p><strong>Nama Tugas:</strong> Belajar CSS</p>
+          <p>
+            <strong>Deskripsi:</strong> Mempelajari selektor dan properti dasar
+            CSS
+          </p>
+          <p><strong>Deadline:</strong> 2024-12-20</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
